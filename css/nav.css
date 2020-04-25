@@ -1,0 +1,36 @@
+/* ======================================
+NAV
+========================================= */
+header {
+    background-color: #212121;
+}
+
+nav {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+
+.nav__links li {
+    list-style: none;
+}
+
+.nav__links img {
+    width: 100px;
+}
+
+.nav__links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+
