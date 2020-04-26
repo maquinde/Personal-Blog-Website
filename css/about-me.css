@@ -1,0 +1,16 @@
+/* ======================================
+ABOUT ME
+========================================= */
+
+.aside__content {
+    text-align: center;
+    padding: 25px 50px;
+}
+
+.aside__content i {
+    font-size: 20px;
+}
+
+[href~="https://www.instagram.com"] {
+    padding: 0 10px;
+}
