@@ -8,17 +8,14 @@ header {
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.nav__links {
-    display: flex;
-    padding-left: 0;
-}
-
-.nav__links a {
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
+
 
 
 

@@ -1,9 +1,9 @@
-/* .grid {
+.grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 100px 100% 100px;
+    grid-template-rows: 75px 1fr 50px;
     grid-template-areas: "header header"
-                         "article aside"
+                         "main aside"
                          "footer footer";
 }
 
@@ -11,8 +11,8 @@ header {
     grid-area: header;
 }
 
-article {
-    grid-area: article;
+main {
+    grid-area: main;
 }
 
 aside {
@@ -21,4 +21,5 @@ aside {
 
 footer {
     grid-area: footer;
-} */
+}
+
