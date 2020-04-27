@@ -1,0 +1,24 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 100% 100px;
+    grid-template-areas: "header header"
+                         "article aside"
+                         "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+article {
+    grid-area: article;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+} */

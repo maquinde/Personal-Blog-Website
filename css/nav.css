@@ -6,31 +6,20 @@ header {
 }
 
 nav {
-    width: 90%;
-    padding: 20px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .nav__links {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding-left: 0;
-}
-
-.nav__links li {
-    list-style: none;
-}
-
-.nav__links img {
-    width: 100px;
 }
 
 .nav__links a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 2rem;
 }
+
 
 
 
