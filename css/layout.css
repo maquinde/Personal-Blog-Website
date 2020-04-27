@@ -1,3 +1,6 @@
+/* ======================================
+LAYOUT
+========================================= */
 .grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -23,3 +26,32 @@ footer {
     grid-area: footer;
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 425px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 300px 100px;
+        grid-template-areas: "header"
+                             "main"
+                             "aside"
+                             "footer";
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 426px) and (max-width: 960px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 300px 100px;
+        grid-template-areas: "header"
+                             "main"
+                             "aside"
+                             "footer";
+    }
+  }
