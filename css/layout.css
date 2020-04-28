@@ -26,6 +26,16 @@ footer {
     grid-area: footer;
 }
 
+.aside-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 300px;
+    justify-content: center;
+}
+
+
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 425px) {
     .grid {

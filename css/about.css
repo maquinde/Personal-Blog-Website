@@ -5,3 +5,17 @@ aside {
     text-align: center;
     padding: 20px;
 }
+
+.info img {
+    width: 100px;
+    border-radius: 100px;
+    border: 5px solid #000000;
+}
+
+.social {
+    font-size: 30px;
+}
+
+.middle {
+    padding: 0 10px;
+}
